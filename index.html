@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="[TÊN ĐẦY ĐỦ]">
+    
+    <!-- SEO Meta Tags -->
+    <title>TUAN ANH - FullStack Developer</title>
+    <meta name="description" content="Xin chào! Tôi là Tuấn Anh, Developer với 3 năm kinh nghiệm. Khám phá blog của tôi về lập trình web.">
+    <meta name="keywords" content="FullStack, Developer, Web Development, Tuấn Anh">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="pofolio">
+    <meta property="og:title" content="TUAN ANH - Developer" >
+    <meta property="og:description" content="Pofolio cá nhân của Tuấn Anh - Developer">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:locale" content="vi_VN">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="TUAN ANH - Developer">
+    <meta name="twitter:description" content="Pofolio cá nhân của Tuấn Anh - Developer">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background Elements -->
+    <div class="blob-container">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+        <div class="blob blob-4"></div>
+    </div>
+    
+    <div class="aurora"></div>
+    
+    <div class="particles" id="particles"></div>
+    
+    <div class="stars" id="stars"></div>
+    
+    <div class="grid-pattern"></div>
+    
+    <div class="noise-overlay"></div>
+    
+    <div class="spotlight-bg" id="spotlight-bg"></div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav-logo" data-text="Awh_216">Awh_216</a>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                <div class="toggle-track">
+                    <div class="toggle-thumb">
+                        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="5"/>
+                            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                        </svg>
+                        <svg class="icon-moon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                        </svg>
+                    </div>
+                </div>
+            </button>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Trang chủ</a></li>
+                <li><a href="#about" class="nav-link">Giới thiệu</a></li>
+                <li><a href="#blog" class="nav-link">Dự Án</a></li>
+                <li><a href="#contact" class="nav-link">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="hero-greeting">Hello, I'm Tuan Anh </p>
+                    <h1 class="hero-title">
+                        <span class="title-text" data-text="Nguyễn Đình Tuấn Anh">Nguyễn Đình Tuấn Anh</span>
+                        <span class="verified-badge">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="12" fill="#1DA1F2"/>
+                                <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                    </h1>
+                    <h2 class="hero-subtitle">FullStack Developer</h2>
+                    <p class="hero-description">
+                        Tôi yêu thích việc biến ý tưởng thành các sản phẩm web thực tế. Người khác mơ về trải nghiệm, tôi hiện thực hóa chúng bằng code.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Liên hệ ngay</a>
+                        <a href="#blog" class="btn btn-secondary">Xem Dự Án</a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://github.com/Awh-216" target="_blank" rel="noopener" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                        </a>
+                        <a href="https://instagram.com/Awh_216" target="_blank" rel="noopener" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        <a href="https://t.me/awh_216" target="_blank" rel="noopener" aria-label="Telegram">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-avatar">
+                        <div class="avatar-flip">
+                            <div class="avatar-front">
+                                <img src="avatar.jpg" alt="Tuan Awh - Web Developer" width="400" height="400">
+                            </div>
+                            <div class="avatar-back">
+                                <svg class="circular-text" viewBox="0 0 200 200">
+                                    <defs>
+                                        <path id="circlePath" d="M 100, 100 m -80, 0 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0"/>
+                                    </defs>
+                                    <text>
+                                        <textPath href="#circlePath" class="rotating-text">
+                                            ★ Web Developer ★ Creative ★ Passionate ★ Awh_216 ★ Code Lover 
+                                        </textPath>
+                                    </text>
+                                </svg>
+                                <div class="avatar-back-content">
+                                    <span class="back-emoji">👨‍💻</span>
+                                    <span class="back-name">Tuấn Anh</span>
+                                    <span class="back-title">Developer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section-title">Về tôi</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Tôi hiện là sinh viên năm 2 tại trường Cao đẳng FPT Polytechnic Thanh Hóa. Trong quá trình học tập, em đã tự tìm tòi và hoàn thành nhiều dự án web từ đơn giản đến phức tạp.</p>
+                        <p>Mục tiêu của em là trở thành một Senior Web Developer trong 5 năm tới, đóng góp giá trị cho doanh nghiệp thông qua việc phát triển các sản phẩm công nghệ chất lượng cao.</p>
+                    </div>
+                    <div class="about-info">
+                        <h3 class="info-title">Thông tin cơ bản</h3>
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <label class="info-label">Học vấn:</label>
+                                <span class="info-value">Cao đẳng FPT Polytechnic Thanh Hóa</span>
+                            </div>
+                            <div class="info-item">
+                                <label class="info-label">GPA:</label>
+                                <span class="info-value">3.4 / 4.0</span>
+                            </div>
+                            <div class="info-item">
+                                <label class="info-label">Email:</label>
+                                <span class="info-value">anh2006nha@gmail.com</span>
+                            </div>
+                            <div class="info-item">
+                                <label class="info-label">Nơi ở:</label>
+                                <span class="info-value">Thanh Hóa, Việt Nam</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Stack Section -->
+        <section class="tech-stack section" id="stack">
+            <div class="container">
+                <h2 class="section-title">Tech Stack</h2>
+                <p class="stack-description">Các công nghệ tôi sử dụng hàng ngày</p>
+                <div class="stack-grid">
+                    <div class="stack-item" data-name="HTML5">
+                        <svg viewBox="0 0 128 128"><path fill="#E44D26" d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198-45.019 12.48z"/><path fill="#F16529" d="M64 116.8l36.378-10.086 8.559-95.878H64z"/><path fill="#EBEBEB" d="M64 52.455H45.788L44.53 38.361H64V24.599H29.489l.33 3.692 3.382 37.927H64zm0 35.743l-.061.017-15.327-4.14-.979-10.975H33.816l1.928 21.609 28.193 7.826.063-.017z"/><path fill="#fff" d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696h-3.708zm0-27.856v13.762h33.244l.276-3.092.628-6.978.329-3.692z"/></svg>
+                    </div>
+                    <div class="stack-item" data-name="CSS3">
+                        <svg viewBox="0 0 128 128"><path fill="#1572B6" d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754-45.243 12.543z"/><path fill="#33A9DC" d="M64.001 117.062l36.559-10.136 8.601-96.354h-45.16z"/><path fill="#fff" d="M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711-3.4 38.114h-30.95z"/><path fill="#EBEBEB" d="M64.083 87.349l-.061.018-15.403-4.159-.985-11.031H33.752l1.937 21.717 28.331 7.863.063-.018z"/><path fill="#fff" d="M81.127 64.675l-1.666 18.522-15.426 4.164v14.39l28.354-7.858.208-2.337 2.406-26.881z"/><path fill="#EBEBEB" d="M64.048 23.435v13.831H30.64l-.277-3.108-.63-7.012-.331-3.711zm-.047 27.994v13.831H48.792l-.277-3.108-.631-7.012-.33-3.711z"/></svg>
+                    </div>
+                    <div class="stack-item" data-name="JavaScript">
+                        <svg viewBox="0 0 128 128"><path fill="#F0DB4F" d="M1.408 1.408h125.184v125.184H1.408z"/><path fill="#323330" d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.104 5.332 17.54 6.545 18.873 11.531 1.297 6.104-4.486 8.08-10.234 7.378-4.236-.881-6.592-3.034-9.139-6.949-4.688 2.713-4.688 2.713-9.508 5.485 1.143 2.499 2.344 3.63 4.26 5.795 9.068 9.198 31.76 8.746 35.83-5.176.165-.478 1.261-3.666.38-8.581zM69.462 58.943H57.753l-.048 30.272c0 6.438.333 12.34-.714 14.149-1.713 3.558-6.152 3.117-8.175 2.427-2.059-1.012-3.106-2.451-4.319-4.485-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901 4.462 2.678 10.459 3.499 16.731 2.059 4.082-1.189 7.604-3.652 9.448-7.401 2.666-4.915 2.094-10.864 2.07-17.444.06-10.735.001-21.468.001-32.237z"/></svg>
+                    </div>
+                    <div class="stack-item" data-name="TypeScript">
+                        <svg viewBox="0 0 128 128"><path fill="#007acc" d="M2 63.91v62.5h125v-125H2zm100.73-5a15.56 15.56 0 017.82 4.5 20.58 20.58 0 013 4c0 .16-5.4 3.81-8.69 5.85-.12.08-.6-.44-1.13-1.23a6.54 6.54 0 00-5.48-3.14c-3.54-.32-5.83 1.52-5.81 4.63a4.28 4.28 0 00.49 2.28c.67 1.38 1.91 2.22 5.85 3.94 7.27 3.17 10.38 5.26 12.34 8.29a16.62 16.62 0 011.36 13.22 15.76 15.76 0 01-6.47 8.15c-2.77 1.69-5.48 2.43-9.77 2.65-4.73.24-8.45-.56-12.15-2.58a17.72 17.72 0 01-6.26-6.72c-.12-.23 1.23-1.08 5.59-3.56l5.73-3.27.56.9a12.22 12.22 0 004.12 4.47 9.24 9.24 0 0010.39-.68 4.5 4.5 0 001.15-5.34c-.73-1.49-2.24-2.48-6.56-4.31-4.95-2.09-7.1-3.36-9.26-5.48a14.63 14.63 0 01-3.4-6.27 24.84 24.84 0 01-.29-7.09 14.4 14.4 0 0112.65-12.27 24.63 24.63 0 019.87.74zM67.56 77.87l.07 5.87H55.35v33.4H44.22V83.74H32v-5.72a53.57 53.57 0 01.13-5.87c.06-.06 8-.1 17.68-.1h17.63z"/></svg>
+                    </div>
+                    <div class="stack-item" data-name="React">
+                        <svg viewBox="0 0 128 128"><g fill="#61DAFB"><circle cx="64" cy="64" r="11.4"/><path d="M107.3 45.2c-2.2-.8-4.5-1.6-6.9-2.3.6-2.4 1.1-4.8 1.5-7.1 2.1-13.2-.2-22.5-6.6-26.1-1.9-1.1-4-1.6-6.4-1.6-7 0-15.9 5.2-24.9 13.9-9-8.7-17.9-13.9-24.9-13.9-2.4 0-4.5.5-6.4 1.6-6.4 3.7-8.7 13-6.6 26.1.4 2.3.9 4.7 1.5 7.1-2.4.7-4.7 1.4-6.9 2.3C8.2 50 1.4 56.6 1.4 64s6.9 14 19.3 18.8c2.2.8 4.5 1.6 6.9 2.3-.6 2.4-1.1 4.8-1.5 7.1-2.1 13.2.2 22.5 6.6 26.1 1.9 1.1 4 1.6 6.4 1.6 7.1 0 16-5.2 24.9-13.9 9 8.7 17.9 13.9 24.9 13.9 2.4 0 4.5-.5 6.4-1.6 6.4-3.7 8.7-13 6.6-26.1-.4-2.3-.9-4.7-1.5-7.1 2.4-.7 4.7-1.4 6.9-2.3 12.5-4.8 19.3-11.4 19.3-18.8s-6.8-14-19.3-18.8zM92.5 14.7c4.1 2.4 5.5 9.8 3.8 20.3-.3 2.1-.8 4.3-1.4 6.6-5.2-1.2-10.7-2-16.5-2.5-3.4-4.8-6.9-9.1-10.4-13 7.4-7.3 14.9-12.3 21-12.3 1.3 0 2.5.3 3.5.9zM81.3 74c-1.8 3.2-3.9 6.4-6.1 9.6-3.7.3-7.4.4-11.2.4-3.9 0-7.6-.1-11.2-.4-2.2-3.2-4.2-6.4-6-9.6-1.9-3.3-3.7-6.7-5.3-10 1.6-3.3 3.4-6.7 5.3-10 1.8-3.2 3.9-6.4 6.1-9.6 3.7-.3 7.4-.4 11.2-.4 3.9 0 7.6.1 11.2.4 2.2 3.2 4.2 6.4 6 9.6 1.9 3.3 3.7 6.7 5.3 10-1.7 3.3-3.4 6.6-5.3 10zm8.3-3.3c1.5 3.5 2.7 6.9 3.8 10.3-3.4.8-7 1.4-10.8 1.9 1.2-1.9 2.5-3.9 3.6-6 1.2-2.1 2.3-4.2 3.4-6.2zM64 97.8c-2.4-2.6-4.7-5.4-6.9-8.3 2.3.1 4.6.2 6.9.2 2.3 0 4.6-.1 6.9-.2-2.2 2.9-4.5 5.7-6.9 8.3zm-18.6-15c-3.8-.5-7.4-1.1-10.8-1.9 1.1-3.3 2.3-6.8 3.8-10.3 1.1 2 2.2 4.1 3.4 6.1 1.2 2.2 2.4 4.1 3.6 6.1zm-7-25.5c-1.5-3.5-2.7-6.9-3.8-10.3 3.4-.8 7-1.4 10.8-1.9-1.2 1.9-2.5 3.9-3.6 6-1.2 2.1-2.3 4.2-3.4 6.2zM64 30.2c2.4 2.6 4.7 5.4 6.9 8.3-2.3-.1-4.6-.2-6.9-.2-2.3 0-4.6.1-6.9.2 2.2-2.9 4.5-5.7 6.9-8.3zm22.2 21l-3.6-6c3.8.5 7.4 1.1 10.8 1.9-1.1 3.3-2.3 6.8-3.8 10.3-1.1-2.1-2.2-4.2-3.4-6.2zM31.7 35c-1.7-10.5-.3-17.9 3.8-20.3 1-.6 2.2-.9 3.5-.9 6 0 13.5 4.9 21 12.3-3.5 3.8-7 8.2-10.4 13-5.8.5-11.3 1.4-16.5 2.5-.6-2.3-1-4.5-1.4-6.6zM7 64c0-4.7 5.7-9.7 15.7-13.4 2-.8 4.2-1.5 6.4-2.1 1.6 5 3.6 10.3 6 15.6-2.4 5.3-4.5 10.5-6 15.5C15.3 75.6 7 69.6 7 64zm28.5 49.3c-4.1-2.4-5.5-9.8-3.8-20.3.3-2.1.8-4.3 1.4-6.6 5.2 1.2 10.7 2 16.5 2.5 3.4 4.8 6.9 9.1 10.4 13-7.4 7.3-14.9 12.3-21 12.3-1.3 0-2.5-.3-3.5-.9zM96.3 93c1.7 10.5.3 17.9-3.8 20.3-1 .6-2.2.9-3.5.9-6 0-13.5-4.9-21-12.3 3.5-3.8 7-8.2 10.4-13 5.8-.5 11.3-1.4 16.5-2.5.6 2.3 1 4.5 1.4 6.6zm9-15.6c-2 .8-4.2 1.5-6.4 2.1-1.6-5-3.6-10.3-6-15.6 2.4-5.3 4.5-10.5 6-15.5 13.8 4 22.1 10 22.1 15.6 0 4.7-5.8 9.7-15.7 13.4z"/></g></svg>
+                    </div>
+                    <div class="stack-item" data-name="Node.js">
+                        <svg viewBox="0 0 128 128"><path fill="#83CD29" d="M112.771 30.334L68.674 4.729c-2.781-1.584-6.402-1.584-9.205 0L14.901 30.334C12.031 31.985 10 35.088 10 38.407v51.142c0 3.319 2.084 6.423 4.954 8.083l11.775 6.688c5.628 2.772 7.617 2.772 10.178 2.772 8.333 0 13.093-5.039 13.093-13.828v-50.49c0-.713-.371-1.774-1.071-1.774h-5.623c-.712 0-2.306 1.061-2.306 1.773v50.49c0 3.896-3.524 7.773-10.11 4.48L18.723 90.73c-.424-.23-.723-.693-.723-1.181V38.407c0-.482.555-.966.982-1.213l44.424-25.561c.415-.235 1.025-.235 1.439 0l43.882 25.555c.42.253.272.722.272 1.219v51.142c0 .488.183.963-.232 1.198l-44.086 25.576c-.378.227-.847.227-1.261 0l-11.307-6.749c-.341-.198-.746-.269-1.073-.086-3.146 1.783-3.726 2.02-6.677 3.043-.726.253-1.797.692.41 1.929l14.798 8.754a9.294 9.294 0 004.647 1.246c1.642 0 3.25-.426 4.667-1.246l43.885-25.582c2.87-1.672 4.23-4.764 4.23-8.083V38.407c0-3.319-1.36-6.414-4.229-8.073zM77.91 81.445c-11.726 0-14.309-3.235-15.17-9.066-.1-.628-.633-1.379-1.272-1.379h-5.731c-.709 0-1.279.86-1.279 1.566 0 7.466 4.059 16.512 23.453 16.512 14.039 0 22.088-5.455 22.088-15.109 0-9.572-6.467-12.084-20.082-13.886-13.762-1.819-15.16-2.738-15.16-5.962 0-2.658 1.184-6.203 11.374-6.203 9.105 0 12.461 1.954 13.842 8.091.118.577.645 1.016 1.234 1.016h5.85c.378 0 .677-.142.941-.398.263-.264.366-.584.314-.939-.756-9.029-6.752-13.209-22.181-13.209-12.676 0-20.205 5.348-20.205 14.311 0 9.729 7.508 12.412 19.674 13.618 14.541 1.442 15.654 3.592 15.654 6.488 0 5.029-4.029 7.167-13.344 7.167z"/></svg>
+                    </div>
+                    <div class="stack-item" data-name="Git">
+                        <svg viewBox="0 0 128 128"><path fill="#F34F29" d="M124.737 58.378L69.621 3.264c-3.172-3.174-8.32-3.174-11.497 0L46.68 14.71l14.518 14.518c3.375-1.139 7.243-.375 9.932 2.314 2.703 2.706 3.461 6.607 2.294 9.993l13.992 13.993c3.385-1.167 7.292-.413 9.994 2.295 3.78 3.777 3.78 9.9 0 13.679a9.673 9.673 0 01-13.683 0 9.677 9.677 0 01-2.105-10.521L68.574 47.933l-.002 34.341a9.708 9.708 0 012.559 1.828c3.778 3.777 3.778 9.898 0 13.683-3.779 3.777-9.904 3.777-13.679 0-3.778-3.784-3.778-9.905 0-13.683a9.65 9.65 0 013.167-2.11V47.333a9.581 9.581 0 01-3.167-2.111c-2.862-2.86-3.551-7.06-2.083-10.576L41.056 20.333 3.264 58.123a8.133 8.133 0 000 11.5l55.117 55.114c3.174 3.174 8.32 3.174 11.499 0l54.858-54.858a8.135 8.135 0 00-.001-11.501z"/></svg>
+                    </div>
+                    <div class="stack-item" data-name="VS Code">
+                        <svg viewBox="0 0 128 128"><path fill="#0065A9" d="M95.678 24.894l-27.512 25.09L45.9 32.28 20.463 44.012v39.976l25.437 11.732 22.266-17.704 27.512 25.09 11.832-5.916V30.81l-11.832-5.916zM68.166 64l-22.266 17.704V46.296L68.166 64zm27.512 22.266L68.166 64l27.512-22.266v44.532z"/><path fill="#007ACC" d="M95.678 24.894L68.166 49.984 45.9 32.28 20.463 44.012v39.976l25.437 11.732 22.266-17.704 27.512 25.09 11.832-5.916V30.81l-11.832-5.916zM45.9 81.704V46.296L68.166 64 45.9 81.704zm49.778 4.562L68.166 64l27.512-22.266v44.532z"/></svg>
+                    </div>
+                    <div class="stack-item" data-name="Figma">
+                        <svg viewBox="0 0 128 128"><path fill="#0acf83" d="M45.5 129c11.9 0 21.5-9.6 21.5-21.5V86H45.5C33.6 86 24 95.6 24 107.5S33.6 129 45.5 129z"/><path fill="#a259ff" d="M24 64.5C24 52.6 33.6 43 45.5 43H67v43H45.5C33.6 86 24 76.4 24 64.5z"/><path fill="#f24e1e" d="M24 21.5C24 9.6 33.6 0 45.5 0H67v43H45.5C33.6 43 24 33.4 24 21.5z"/><path fill="#ff7262" d="M67 0h21.5C100.4 0 110 9.6 110 21.5S100.4 43 88.5 43H67V0z"/><path fill="#1abcfe" d="M110 64.5c0 11.9-9.6 21.5-21.5 21.5S67 76.4 67 64.5 76.6 43 88.5 43 110 52.6 110 64.5z"/></svg>
+                    </div>
+                    <div class="stack-item" data-name="PHP">
+                        <svg viewBox="0 0 128 128"><defs><linearGradient id="phpGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#9966CC;stop-opacity:1" /><stop offset="100%" style="stop-color:#6633CC;stop-opacity:1" /></linearGradient></defs><text x="64" y="75" font-size="60" font-weight="bold" fill="url(#phpGrad)" text-anchor="middle" font-family="Arial, sans-serif">PHP</text></svg>
+                    </div>
+                    <div class="stack-item" data-name="MySQL">
+                        <svg viewBox="0 0 128 128"><defs><linearGradient id="sqlGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#66CCFF;stop-opacity:1" /><stop offset="100%" style="stop-color:#33AADD;stop-opacity:1" /></linearGradient></defs><text x="64" y="75" font-size="52" font-weight="bold" fill="url(#sqlGrad)" text-anchor="middle" font-family="Arial, sans-serif">SQL</text></svg>
+                    </div>
+                    <div class="stack-item" data-name="MongoDB">
+                        <svg viewBox="0 0 128 128"><defs><linearGradient id="mongoLeaf" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#1AA362;stop-opacity:1" /><stop offset="100%" style="stop-color:#0D7D43;stop-opacity:1" /></linearGradient></defs><path fill="url(#mongoLeaf)" d="M 64 15 C 50 28 45 45 48 60 C 50 75 60 85 64 95 C 68 85 78 75 80 60 C 83 45 78 28 64 15 M 60 45 Q 55 55 58 70 M 68 45 Q 73 55 70 70 M 64 48 Q 62 58 64 72 Q 66 58 64 48"/></svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="blog section" id="blog">
+            <div class="container">
+                <h2 class="section-title">Dự Án</h2>
+                <div class="blog-grid">
+                    <!-- Project 1 -->
+                    <article class="blog-card project-card">
+                        <div class="blog-image">
+                            <img src="img/Du-an1.png" alt="E-Commerce Web App" loading="lazy" width="500" height="300">
+                            <a href="#" class="image-overlay-btn" title="View on GitHub">💻 GitHub</a>
+                        </div>
+                        <div class="blog-content">
+                            <div class="project-tags">
+                                <span class="tag">PHP</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <h3>Web bán vé phim - Xem phim online</h3>
+                            <p>Trang web bán vé phim trực tuyến với giao diện thân thiện, hỗ trợ thanh toán và quản lý lịch chiếu.</p>
+                            <div class="project-links">
+                                <a href="https://tuanawh.store/" class="link-btn">
+                                    <span>🔗</span> WebSite
+                                </a>
+                                <a href="https://github.com/Awh-216/DuAn1" class="link-btn">
+                                    <span>💻</span> Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="blog-card project-card">
+                        <div class="blog-image">
+                            <img src="img/Du-an2.png" alt="Task Management Tool" loading="lazy" width="500" height="300">
+                            <a href="#" class="image-overlay-btn" title="View on GitHub">💻 GitHub</a>
+                        </div>
+                        <div class="blog-content">
+                            <div class="project-tags">
+                                <span class="tag">TypeScript</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <h3>AI4life - Ứng dụng tư vấn ngành học</h3>
+                            <p>Ứng dụng AI giúp học sinh chọn ngành học phù hợp dựa trên sở thích và năng lực cá nhân.</p>
+                            <div class="project-links">
+                                <a href="#" class="link-btn">
+                                    <span>🔗</span> Live Demo
+                                </a>
+                                <a href="https://github.com/Awh-216/AI4life" class="link-btn">
+                                    <span>💻</span> Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="blog-card project-card">
+                        <div class="blog-image">
+                            <img src="img/Du-an3.png" alt="Project 3" loading="lazy" width="500" height="300">
+                            <a href="#" class="image-overlay-btn" title="View on GitHub">💻 GitHub</a>
+                        </div>
+                        <div class="blog-content">
+                            <div class="project-tags">
+                                <span class="tag">PHP</span>
+                                <span class="tag">MySQL</span>
+                            </div>
+                            <h3>Web bán CaFe</h3>
+                            <p>Trang web bán hàng cà phê với giao diện thân thiện, quản lý đơn hàng và hỗ trợ menu cho quán Cafe.</p>
+                            <div class="project-links">
+                                <a href="#" class="link-btn">
+                                    <span>🔗</span> Live Demo
+                                </a>
+                                <a href="https://github.com/Awh-216/Tiem_Awh" class="link-btn">
+                                    <span>💻</span> Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section-title">Liên hệ</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Hãy kết nối với tôi!</h3>
+                        <p>Bạn có câu hỏi, ý tưởng hợp tác hoặc chỉ muốn chào hỏi? Đừng ngại liên hệ với tôi nhé!</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <span class="contact-icon">📧</span>
+                                <div>
+                                    <strong>Email</strong>
+                                    <a href="mailto:anh2006nha@gmail.com">anh2006nha@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">📍</span>
+                                <div>
+                                    <strong>Địa điểm</strong>
+                                    <span>Thanh Hóa, Việt Nam</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon instagram-icon">📸</span>
+                                <div>
+                                    <strong>Instagram</strong>
+                                    <a href="https://instagram.com/awh_216" target="_blank" rel="noopener" class="ig-link">@Awh_216</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">✈️</span>
+                                <div>
+                                    <strong>Telegram</strong>
+                                    <a href="https://t.me/awh_216" target="_blank" rel="noopener">@awh_216</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Họ tên *</label>
+                            <input type="text" id="name" name="name" required placeholder="Nhập họ tên của bạn">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required placeholder="email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Chủ đề</label>
+                            <input type="text" id="subject" name="subject" placeholder="Bạn muốn trao đổi về điều gì?">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Nội dung *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Nhập nội dung tin nhắn..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Gửi tin nhắn</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">Tuan Anh</a>
+                    <p>Web Deverloper</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Trang chủ</a>
+                    <a href="#about">Giới thiệu</a>
+                    <a href="#blog">Dự Án</a>
+                    <a href="#contact">Liên hệ</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/Awh-216" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+                    <a href="https://instagram.com/Awh_216" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+                    <a href="https://t.me/awh_216" target="_blank" rel="noopener" aria-label="Telegram">Telegram</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; Awh-216 | Web Developer</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
